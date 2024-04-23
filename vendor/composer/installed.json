@@ -1,0 +1,50 @@
+{
+    "packages": [
+        {
+            "name": "academy01/csrftoken",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mhnobakht/csrftoken.git",
+                "reference": "f5a7a32af879f35714fc2beea8b561b6b6e721f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mhnobakht/csrftoken/zipball/f5a7a32af879f35714fc2beea8b561b6b6e721f6",
+                "reference": "f5a7a32af879f35714fc2beea8b561b6b6e721f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "time": "2023-08-13T08:58:40+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Academy01\\Csrftoken\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "'academy01'",
+                    "email": "80899303+mhnobakht@users.noreply.github.com"
+                }
+            ],
+            "description": "Simple package to generate and validate csrf Tokens",
+            "support": {
+                "issues": "https://github.com/mhnobakht/csrftoken/issues",
+                "source": "https://github.com/mhnobakht/csrftoken/tree/main"
+            },
+            "install-path": "../academy01/csrftoken"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
